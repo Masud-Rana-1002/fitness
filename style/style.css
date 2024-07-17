@@ -183,3 +183,19 @@ span{
 }
 
 /* banner section style end here */
+
+/* Change Your Habits style start here */
+.habit-section{
+    text-align: center;
+}
+.section-contant > h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.section-contant > p{
+    color: var(--primaryFontColorWithOpacity);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+/* Change Your Habits style end here */
