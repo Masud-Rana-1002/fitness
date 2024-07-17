@@ -6,4 +6,31 @@
 .bars{
     display: block;
 }
+/* banner section start*/
+.banner-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-taitel {
+    font-size: 3rem;
+}
+.banner-content {
+    width: 100%;
+    margin: 20px auto;
+    
+}
+
+#glass-card-1{
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    
+}
+#glass-card-2{
+    position: absolute;
+    left: -55px;
+    top: 250px;
+}
+/* banner section end*/
 }

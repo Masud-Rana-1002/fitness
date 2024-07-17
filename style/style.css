@@ -4,19 +4,21 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 /* inter font link */
 @import url('https://fonts.cdnfonts.com/css/inter');
-:root{
+
+:root {
     --primaryFont: 'Inter', sans-serif;
-    --secondary: 'Miama', sans-serif;
+    --secondaryFont: 'Miama', sans-serif;
     --bgPrimaryColor: rgb(0, 0, 0);
-    --bgSecondaryColor:  rgb(34, 34, 34);
+    --bgSecondaryColor: rgb(34, 34, 34);
     --brandColor: rgb(230, 83, 60);
     --primaryFontColor: rgb(255, 255, 255);
-    --primaryFontColorWithOpacity:  rgba(255, 255, 255, 0.5);
+    --primaryFontColorWithOpacity: rgba(255, 255, 255, 0.5);
 
 }
+
 *,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,46 +26,160 @@
     text-decoration: none;
 }
 
-body{
+body {
     max-width: 1440px;
     margin: 0 auto;
     background-color: var(--bgPrimaryColor);
     font-family: 'Inter', sans-serif;
+    color: var(--primaryFontColor);
+
 }
- /* nav bar style start here  */
- header{
+
+/* button style */
+.btn {
+    font-size: 1.25rem;
+    padding: 16px 40px;
+    border-radius: 42px;
+    color: var(--primaryFontColor);
+    border: none;
+    margin-right: 10px;
+}
+.primary {
+    background-color: var(--brandColor);
+}
+/* nav bar style start here  */
+header {
     margin: 50px;
- }
- nav, .nav-manu>ul{
+}
+
+nav,
+.nav-manu>ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2.9rem ;
- }
- .brand-name{
+    gap: 2.9rem;
+}
+
+.brand-name {
     color: var(--brandColor);
-    font-size: 2.25rem ;
+    font-size: 2.25rem;
     font-weight: 800;
- }
- .nav-manu > ul{
-    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-manu>ul {
+    border: 3px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 4px 8px;
 
- }
- .nav-manu > ul > li > a {
+}
+
+.nav-manu>ul>li>a {
     color: var(--primaryFontColor);
     font-size: 1.25;
- }
- .bars {
+}
+
+.bars {
     color: var(--primaryFontColor);
     display: none;
     font-size: 1.5rem;
- }
- .nav-manu > ul> li:nth-child(1){
+}
+
+.nav-manu>ul>li:nth-child(1) {
     background-color: var(--brandColor);
-    padding:8px 20px ;
+    padding: 8px 20px;
     border-radius: 46px;
     color: var(--primaryFontColor);
- }
+}
+
 /* nav bar style end here  */
+
+/* banner section style start here */
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 100px;
+}
+
+.banner-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 14px;
+}
+
+.banner-taitel {
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+span{
+    font-family: var(--secondaryFont);
+}
+.banner-description {
+    color: var(--primaryFontColorWithOpacity);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-img {
+    background-image: url("../images/Images\ 2.png");
+    background-repeat: no-repeat;
+    width: 349px;
+    height: 580px;
+    position: relative;
+    margin: 0 auto;
+    /* margin: 20px auto; */
+}
+
+
+
+.glass-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+}
+.circle{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--brandColor) ;
+}
+.count{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.video-count{
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+.glass-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 5px;
+    color: var(--primaryFontColorWithOpacity);
+}
+#glass-card-1{
+    position: absolute;
+    top: 130px;
+    right: -90px;
+}
+#glass-card-2{
+    position: absolute;
+    left: -120px;
+    bottom: 60px;
+}
+.secondary {
+    background-color: transparent;
+    border: 1px solid var(--primaryFontColor);
+}
+
+/* banner section style end here */
