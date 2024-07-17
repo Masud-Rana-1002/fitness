@@ -357,3 +357,26 @@ span {
     left: 15px;
 }
 /* Trainings and Exercises section end here */
+.chart-bmi{
+    background-color: var(--bgSecondaryColor);
+    height: 487px;
+}
+caption{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    color: var(--primaryFontColor);
+}
+td{
+    color: var(--primaryFontColorWithOpacity);
+}
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+}
