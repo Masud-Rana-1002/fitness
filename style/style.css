@@ -34,7 +34,8 @@ body {
     color: var(--primaryFontColor);
 
 }
-p{
+/* all description common color */
+p {
     color: var(--primaryFontColorWithOpacity);
 }
 
@@ -47,9 +48,11 @@ p{
     border: none;
     margin-right: 10px;
 }
+
 .primary {
     background-color: var(--brandColor);
 }
+
 /* nav bar style start here  */
 header {
     margin: 50px;
@@ -116,9 +119,11 @@ nav,
     font-size: 4.8rem;
     font-weight: 900;
 }
-span{
+
+span {
     font-family: var(--secondaryFont);
 }
+
 .banner-description {
     font-size: 1rem;
     font-weight: 400;
@@ -148,36 +153,43 @@ span{
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(20px);
 }
-.circle{
-    width: 40px ;
+
+.circle {
+    width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--brandColor) ;
+    background-color: var(--brandColor);
 }
-.count{
+
+.count {
     font-size: 2.5rem;
     font-weight: 900;
 }
-.video-count{
+
+.video-count {
     font-size: 1.5rem;
     font-weight: 900;
-    
+
 }
-.glass-description{
+
+.glass-description {
     font-size: 0.9rem;
     font-weight: 400;
     margin-top: 5px;
 }
-#glass-card-1{
+
+#glass-card-1 {
     position: absolute;
     top: 130px;
     right: -90px;
 }
-#glass-card-2{
+
+#glass-card-2 {
     position: absolute;
     left: -120px;
     bottom: 60px;
 }
+
 .secondary {
     background-color: transparent;
     border: 1px solid var(--primaryFontColor);
@@ -186,56 +198,86 @@ span{
 /* banner section style end here */
 
 /* Change Your Habits style start here */
-.habit-section{
+.habit-section {
     text-align: center;
 }
 
-.section-contant > h2{
+.section-contant>h2 {
     font-size: 3rem;
     font-weight: 900;
 }
-.section-contant > p{
+
+.section-contant>p {
     font-size: 0.9rem;
     font-weight: 400;
     margin: 12px auto;
 }
-.habit-carts{
-    margin:78px auto ;
+
+.habit-carts {
+    margin: 78px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.habit-cart{
+
+.habit-cart {
     width: 331px;
-    height: 274px; 
+    height: 274px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    
+
 }
-.habit-card-img{
+
+.habit-card-img {
     width: 250px;
     height: 250px;
     margin: 0 auto 25px;
 
-    
-    
-}
-.habit-card-img > img{
-    width: 100%;
-    height: 100%; 
-    margin: 0 auto;
-    border-radius: 50%; 
+
 
 }
-.habit-cart>h4{
+
+.habit-card-img>img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+
+}
+
+.habit-cart>h4 {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
 /* Change Your Habits style end here */
-.habit-cart> p{
+.habit-cart>p {
     font-size: 0.9rem;
     font-weight: 400;
 }
+
 /* Change Your Habits style end here */
+
+/* Run an Extra Mile Easily section style start here */
+.run-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 32px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+.run-img {
+    width: 366px;
+    height: 370px;
+    overflow: hidden;
+    border-radius: 18px;
+}
+.run-img>img {
+    margin: -210px 0px 0px -800px;
+}
+
+/* Run an Extra Mile Easily section style end here */

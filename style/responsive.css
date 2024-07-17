@@ -47,8 +47,40 @@
     
 }
 .section-contant > p{
-   width: 80%;
+   
    margin: 10px auto;
 }
 /* Change Your Habits section end */
+/* Run an Extra Mile Easily section style start here */
+.run-section {
+    flex-direction: column;
+   text-align: center;
+   width: 90%;
+   margin: 0 auto;
+}
+.run-section > .section-contant  {
+    width: 90%;
+    margin: 31px auto;
+    text-align: left;
+}
+.run-section > .section-contant > div {
+    width: 80%;
+    margin: 31px auto;
+    text-align: center;
+}
+.run-section > .section-contant > div > button {
+    width: 100%;
+}
+.run-img {
+    width: 366px;
+    height: 370px;
+    overflow: hidden;
+    border-radius: 18px;
+}
+.run-img>img {
+    margin: -210px 0px 0px -800px;
+}
+
+/* Run an Extra Mile Easily section style end here */
+
 }
