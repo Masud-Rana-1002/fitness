@@ -1,1 +1,69 @@
- 
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Miama', sans-serif; */
+/* miama font link  */
+@import url('https://fonts.cdnfonts.com/css/miama');
+/* inter font link */
+@import url('https://fonts.cdnfonts.com/css/inter');
+:root{
+    --primaryFont: 'Inter', sans-serif;
+    --secondary: 'Miama', sans-serif;
+    --bgPrimaryColor: rgb(0, 0, 0);
+    --bgSecondaryColor:  rgb(34, 34, 34);
+    --brandColor: rgb(230, 83, 60);
+    --primaryFontColor: rgb(255, 255, 255);
+    --primaryFontColorWithOpacity:  rgba(255, 255, 255, 0.5);
+
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--bgPrimaryColor);
+    font-family: 'Inter', sans-serif;
+}
+ /* nav bar style start here  */
+ header{
+    margin: 50px;
+ }
+ nav, .nav-manu>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.9rem ;
+ }
+ .brand-name{
+    color: var(--brandColor);
+    font-size: 2.25rem ;
+    font-weight: 800;
+ }
+ .nav-manu > ul{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 39px;
+    padding: 4px 8px;
+
+ }
+ .nav-manu > ul > li > a {
+    color: var(--primaryFontColor);
+    font-size: 1.25;
+ }
+ .bars {
+    color: var(--primaryFontColor);
+    display: none;
+    font-size: 1.5rem;
+ }
+ .nav-manu > ul> li:nth-child(1){
+    background-color: var(--brandColor);
+    padding:8px 20px ;
+    border-radius: 46px;
+    color: var(--primaryFontColor);
+ }
+/* nav bar style end here  */

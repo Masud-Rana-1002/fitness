@@ -1,0 +1,9 @@
+@media screen and (max-width:576px) {
+    /* nav bar responsive style here */
+.nav-manu > ul{
+    display: none;
+}
+.bars{
+    display: block;
+}
+}
