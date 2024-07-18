@@ -34,9 +34,11 @@ body {
     color: var(--primaryFontColor);
 
 }
-section{
+
+section {
     margin: 100px auto;
 }
+
 /* all description common color */
 p {
     color: var(--primaryFontColorWithOpacity);
@@ -273,12 +275,14 @@ span {
     background: rgb(34, 34, 34);
 
 }
+
 .run-img {
     width: 366px;
     height: 370px;
     overflow: hidden;
     border-radius: 18px;
 }
+
 .run-img>img {
     margin: -210px 0px 0px -800px;
 }
@@ -286,97 +290,180 @@ span {
 /* Run an Extra Mile Easily section style end here */
 
 /* Trainings and Exercises section start here  */
-.img-gallery{
+.img-gallery {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     margin-top: 58px;
 }
-.galry-img{
+
+.galry-img {
     height: 350px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.galry-img{
+
+.galry-img {
     position: relative;
-   
+
 }
-#img-1{
+
+#img-1 {
     grid-column: 1 / span 3;
     background-image: linear-gradient(to right, rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url('../images/exercise1.jpg');
 }
-#img-2{
-    grid-column: 4 / span 5 ;
+
+#img-2 {
+    grid-column: 4 / span 5;
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url('../images/exercise2.png');
 
 }
-#img-3{
+
+#img-3 {
     grid-column: 9 / span 4;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise3.png');
 }
-#img-4{
+
+#img-4 {
     grid-column: 1 / span 4;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise4.png');
 }
-#img-5{
+
+#img-5 {
     grid-column: 5 / span 3;
     background-image: linear-gradient(to right, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url('../images/exercise5.jpg');
 }
-#img-6{
+
+#img-6 {
     grid-column: 8 / span 5;
     background-image: linear-gradient(to right, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url('../images/exercise6.jpg');
 }
-#img-1 >p{
+
+#img-1>p {
     position: absolute;
     bottom: 15px;
     left: 15px;
 }
-#img-2 >p{
+
+#img-2>p {
     position: absolute;
     top: 15px;
     left: 15px;
 }
-#img-3 >p{
+
+#img-3>p {
     position: absolute;
     bottom: 15px;
     left: 15px;
 }
-#img-4 >p{
+
+#img-4>p {
     position: absolute;
     top: 15px;
     right: 15px;
 }
-#img-5 >p{
+
+#img-5>p {
     position: absolute;
     bottom: 15px;
     left: 15px;
 }
-#img-6 >p{
+
+#img-6>p {
     position: absolute;
     bottom: 15px;
     left: 15px;
 }
+
 /* Trainings and Exercises section end here */
-.chart-bmi{
+/* table */
+.chart-bmi {
     background-color: var(--bgSecondaryColor);
     height: 487px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-caption{
+
+caption {
     font-size: 28px;
     font-weight: 900;
     margin-bottom: 50px;
 }
-table{
+
+table {
     border-collapse: collapse;
     text-align: left;
 }
-th{
+
+th {
     color: var(--primaryFontColor);
 }
-td{
+
+td {
     color: var(--primaryFontColorWithOpacity);
 }
-th, td{
+
+th,
+td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 10px 15px;
+}
+
+/* form */
+.form > .form-contant > h2{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.form > .form-contant > p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 5px auto 34px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+
+}
+#in-1, #in-3{
+    grid-column: 1/ span 2;
+} 
+#in-2, #in-4{
+    grid-column: 3/ span  2 ;
+} 
+#in-5{
+    grid-column: 1/ span 4;
+}
+.form input,
+select {
+    border-radius: 8px;
+    height: 48px;
+    padding: 5px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 5px;
+}
+option{
+    color: black;
+}
+.btns-primary > input {
+    font-size: 1.25rem;
+    padding: 16px 50px;
+    border-radius: 42px;
+    color: var(--primaryFontColor);
+    border: none;
+    margin-right: 10px;
+    background-color: var(--brandColor);
+    display: block;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--brandColor);
 }

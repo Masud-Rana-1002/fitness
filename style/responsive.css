@@ -44,11 +44,12 @@
 }
 .section-contant > h2{
     font-size: 2rem;
+    margin-left: 15px;
     
 }
 .section-contant > p{
    
-   margin: 10px auto;
+   margin: 10px 15px;
 }
 /* Change Your Habits section end */
 /* Run an Extra Mile Easily section style start here */
@@ -101,4 +102,22 @@
     
 }
 /* Trainings and Exercises section end here */
+/* bmi calculator */
+.chart-table{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+caption{
+    text-align: left;
+}
+.chart-bmi{
+    flex-direction: column;
+    gap: 42px;
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+}
+/* bmi calculator end */
 }
