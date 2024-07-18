@@ -1,123 +1,226 @@
 @media screen and (max-width:576px) {
+
     /* nav bar responsive style here */
-.nav-manu > ul{
-    display: none;
-}
-.bars{
-    display: block;
-}
-/* banner section start*/
-.banner-section{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.banner-taitel {
-    font-size: 3rem;
-}
-.banner-content {
-    width: 100%;
-    margin: 20px auto;
-    
-}
+    .nav-manu>ul {
+        display: none;
+    }
 
-#glass-card-1{
-    position: absolute;
-    top: 50px;
-    right: -50px;
-    
-}
-#glass-card-2{
-    position: absolute;
-    left: -55px;
-    top: 250px;
-}
-/* banner section end*/
+    .bars {
+        display: block;
+    }
 
-/* Change Your Habits section start */
-.habit-carts{
-    grid-template-columns: repeat(1, 1fr);
-    gap: 40px;  
-}
-.habit-cart{
-    height: auto;
-}
-.section-contant > h2{
-    font-size: 2rem;
-    margin-left: 15px;
-    
-}
-.section-contant > p{
-   
-   margin: 10px 15px;
-}
-/* Change Your Habits section end */
-/* Run an Extra Mile Easily section style start here */
-.run-section {
-    flex-direction: column;
-   text-align: center;
-   width: 90%;
-   margin: 0 auto;
-}
-.run-section > .section-contant  {
-    width: 90%;
-    margin: 31px auto;
-    text-align: left;
-}
-.run-section > .section-contant > div {
-    width: 80%;
-    margin: 31px auto;
-    text-align: center;
-}
-.run-section > .section-contant > div > button {
-    width: 100%;
-}
-.run-img {
-    width: 366px;
-    height: 370px;
-    overflow: hidden;
-    border-radius: 18px;
-}
-.run-img>img {
-    margin: -210px 0px 0px -800px;
-}
+    /* banner section start*/
+    .banner-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-/* Run an Extra Mile Easily section style end here */
-.img-gallery{
-    grid-template-columns: repeat(12, 1fr); 
-}
-#img-1 ,
- #img-3,
-  #img-5{
-    grid-column: 1 / span 6 ;
-    height: 250px;
-    
-    
-}
-#img-2,
- #img-4, 
- #img-6{
-    grid-column: 7 / span 6;
-    height: 250px;
-    
-}
-/* Trainings and Exercises section end here */
-/* bmi calculator */
-.chart-table{
-    width: 100%;
-}
-table{
-    width: 100%;
-}
-caption{
-    text-align: left;
-}
-.chart-bmi{
-    flex-direction: column;
-    gap: 42px;
-    height: auto;
-    width: 95%;
-    margin: 0 auto;
-}
-/* bmi calculator end */
+    .banner-taitel {
+        font-size: 3rem;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    #glass-card-1 {
+        position: absolute;
+        top: 50px;
+        right: -50px;
+
+    }
+
+    #glass-card-2 {
+        position: absolute;
+        left: -55px;
+        top: 250px;
+    }
+
+    /* banner section end*/
+
+    /* Change Your Habits section start */
+    .habit-carts {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .habit-cart {
+        height: auto;
+    }
+
+    .section-contant>h2 {
+        font-size: 2rem;
+
+    }
+
+    .section-contant>p {
+        margin: 10px auto;
+    }
+
+    /* Change Your Habits section end */
+    /* Run an Extra Mile Easily section style start here */
+    .run-section {
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .run-section>.section-contant {
+        width: 95%;
+        margin: 31px auto;
+        text-align: left;
+    }
+
+    .run-section>.section-contant>div {
+        width: 80%;
+        margin: 31px auto;
+        text-align: center;
+    }
+
+    .run-section>.section-contant>div>button {
+        width: 100%;
+    }
+
+    .run-img {
+        width: 100%;
+        height: 270px;
+
+    }
+
+    .run-img>img {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Run an Extra Mile Easily section style end here */
+    .exercises>.section-contant,
+    .calculator-section>.section-contant {
+        width: 70%;
+        margin-left: 15px;
+
+    }
+
+    .img-gallery {
+        grid-template-columns: repeat(12, 1fr);
+        padding: 10px;
+    }
+
+    #img-1,
+    #img-3,
+    #img-5 {
+        grid-column: 1 / span 6;
+        height: 250px;
+
+
+    }
+
+    #img-2,
+    #img-4,
+    #img-6 {
+        grid-column: 7 / span 6;
+        height: 250px;
+
+    }
+
+    /* Trainings and Exercises section end here */
+    /* bmi calculator */
+    .chart-table {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    caption {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .chart-bmi {
+        flex-direction: column;
+        gap: 42px;
+        height: auto;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .calculator-section> .div {
+        width: 90%;
+        
+     }
+     #Calculate{
+        font-size: 1rem;
+        width: 900;
+     }
+    /* bmi calculator end */
+
+    /* Meet Our Team style start here */
+    .team {
+        grid-template-columns: 1fr;
+    }
+
+    .team-img {
+        width: 100%;
+        height: 372px;
+    }
+
+    /* Meet Our Team style end here */
+    /* footer section style start here  */
+    footer {
+        background: rgba(255, 255, 255, 0.1);
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: start;
+        justify-content: space-evenly;
+        gap: 40px;
+        margin: 0 a;
+        width: 80%;
+    }
+
+    .brand-logo>.brand-name>h4 {
+        font-size: 4rem;
+    }
+
+    .brand-logo>.brand-name>p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-top: 20px;
+
+    }
+
+    footer a {
+        color: var(--primaryFontColorWithOpacity);
+        font-size: 1.5rem;
+
+    }
+
+    footer h5 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    footer p {
+
+        margin-bottom: 15px;
+    }
+
+    .hr {
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        width: 80%;
+        margin: 80px auto 36px;
+    }
+
+    /* footer section style end here  */
 }

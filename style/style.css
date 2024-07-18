@@ -75,6 +75,7 @@ nav,
     color: var(--brandColor);
     font-size: 2.25rem;
     font-weight: 800;
+    font-style: italic;
 }
 
 .nav-manu>ul {
@@ -169,11 +170,13 @@ span {
 .count {
     font-size: 2.5rem;
     font-weight: 900;
+    color: var(--primaryFontColor);
 }
 
 .video-count {
     font-size: 1.5rem;
     font-weight: 900;
+    color: var(--primaryFontColor);
 
 }
 
@@ -181,6 +184,7 @@ span {
     font-size: 0.9rem;
     font-weight: 400;
     margin-top: 5px;
+    color: rgba(255, 255, 255, 0.65);
 }
 
 #glass-card-1 {
@@ -376,11 +380,16 @@ span {
 }
 
 /* Trainings and Exercises section end here */
+/* BMI Calculator section style start here */
 /* table */
+.calculator-section> .div {
+   width: 50%;
+    margin: 88px auto;
+}
 .chart-bmi {
     background-color: var(--bgSecondaryColor);
     height: 487px;
-   
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -413,30 +422,38 @@ td {
 }
 
 /* form */
-.form > .form-contant > h2{
+.form>.form-contant>h2 {
     font-size: 1.75rem;
     font-weight: 900;
 }
-.form > .form-contant > p{
+
+.form>.form-contant>p {
     font-size: 0.9rem;
     font-weight: 400;
     margin: 5px auto 34px;
 }
-form{
+
+form {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
 
 }
-#in-1, #in-3{
+
+#in-1,
+#in-3 {
     grid-column: 1/ span 2;
-} 
-#in-2, #in-4{
-    grid-column: 3/ span  2 ;
-} 
-#in-5{
+}
+
+#in-2,
+#in-4 {
+    grid-column: 3/ span 2;
+}
+
+#in-5 {
     grid-column: 1/ span 4;
 }
+
 .form input,
 select {
     border-radius: 8px;
@@ -449,10 +466,12 @@ select {
     font-weight: 400;
     margin: 5px;
 }
-option{
+
+option {
     color: black;
 }
-.btns-primary > input {
+
+.btn-submit>input {
     font-size: 1.25rem;
     padding: 16px 50px;
     border-radius: 42px;
@@ -467,3 +486,96 @@ option{
 .primary {
     background-color: var(--brandColor);
 }
+
+/* BMI Calculator section style end here */
+
+/* Meet Our Team style start here */
+.team-section>.section-contant {
+    text-align: center;
+    margin: 88px auto;
+}
+.team{
+    background-color: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 18px;
+    padding: 20px;
+}
+.team-img {
+    position: relative;
+    width: 350px;
+    height: 272px;
+    margin: 0 auto;
+    
+}
+.name{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.name > h5{
+    font-size: 1.25rem;
+    width: 500;
+}
+.name > p {
+    font-size: 1rem;
+    width: 400;
+   
+}
+.team-img >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    
+}
+/* Meet Our Team style end here */
+/* footer section style start here  */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 0 a ;
+    width: 80%;
+}
+.brand-logo > .brand-name > h4{
+   font-size: 4rem;
+}
+.brand-logo > .brand-name > p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+footer a{
+    color: var(--primaryFontColorWithOpacity);
+    font-size: 1.5rem;
+   
+}
+footer h5{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+footer p{
+    
+    margin-bottom: 15px;
+}
+.hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: 80px auto 36px;
+}
+/* footer section style end here  */
