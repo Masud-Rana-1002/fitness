@@ -399,8 +399,8 @@ span {
     height: 487px;
 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: start;
     padding: 20px;
 }
 
