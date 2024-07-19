@@ -52,6 +52,7 @@ p {
     color: var(--primaryFontColor);
     border: none;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .primary {
@@ -532,6 +533,89 @@ option {
     
 }
 /* Meet Our Team style end here */
+/* CHOOSE YOUR PLAN style start here */
+.plan > .section-contant{
+    text-align: center;
+}
+.plan-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    margin-top: 80px;
+}
+.plan > .section-contant > .y-axis-line{
+    height: 50px;
+    border-right: 3px solid rgba(255, 255, 255, 0.315);
+    margin: 0 auto;
+    width: 10px;
+}
+.plan-card{
+    background: rgba(255, 255, 255, 0.155);
+    border-radius: 16px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+.plan-card:hover{
+    border: 1px solid rgba(255, 255, 255, 0.464);
+    transition-delay: 0.300s;
+    
+}
+.plan-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+.plan-content > h3{
+ font-size: 1.5rem;
+}
+.price >  h5{
+ font-size: 1.5rem;
+}
+.price > p{
+ font-size: 1.2rem;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.x-axis-line{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.315);
+    width: 40%;
+    margin: 0px auto;
+}
+.plan-card-img{
+    width: 350px;
+    margin-bottom: 30px;
+    /* height: 360px; */
+}
+.plan-card-img > img {
+    width: 100%;
+    border-radius: 8px;
+}
+.includes{
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+#most-opular{
+    height: 650px;
+    position: relative;
+}
+#most-opular> p{
+    position: absolute;
+   background-color:rgba(255, 255, 255, 0.174);
+   width: 30%;
+   border-radius: 8px;
+   padding: 5px;
+   right: -40px;
+   top: 10px;
+}
+/* CHOOSE YOUR PLAN style end here */
 /* footer section style start here  */
 footer{
     background: rgba(255, 255, 255, 0.1);

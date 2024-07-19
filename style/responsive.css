@@ -168,6 +168,13 @@
     }
 
     /* Meet Our Team style end here */
+    #most-opular{
+        order: -1;
+    }
+    .plan-cards{
+        flex-direction: column;
+        gap: 24px;
+    }
     /* footer section style start here  */
     footer {
         background: rgba(255, 255, 255, 0.1);
