@@ -390,6 +390,9 @@ span {
 /* Trainings and Exercises section end here */
 /* BMI Calculator section style start here */
 /* table */
+.chart-table{
+    width: 40%;
+}
 .calculator-section> .div {
    width: 50%;
     margin: 88px auto;
